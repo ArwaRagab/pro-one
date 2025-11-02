@@ -94,7 +94,6 @@
 }
 .section .box::before{
     content: attr(data-work);
-    
     position: absolute;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 33px;
@@ -125,6 +124,7 @@
 .menu .box{
     background-color: #e4d6b7;
     padding: 5px;
+    transition: 0.5s ease-in-out;
 }
 .menu .box img{
     border-top-left-radius: 33px;
@@ -138,8 +138,8 @@
     color: var(--brown-color);
 }
 .menu .box:hover{
-    box-shadow:  10px 10px 20px #97755e , -10px -10px 20px #97755e;
-    transition: 0.5s ease-in-out;
+    box-shadow:  10px 10px 20px #97755e,-10px -10px 20px #97755e; ; 
+    
 }
 .menu .box span{
     color: var(--brown-color);
